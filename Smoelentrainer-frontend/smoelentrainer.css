@@ -1,0 +1,72 @@
+body{
+	background-color: green;
+}
+.start-button{
+    text-align: center;
+}
+#button-settings{
+  text-align: center;
+}
+
+#team{
+	width: 1200px;
+	margin-left: 525px;
+}
+/* button voor de namen en border om de namen */ 
+#names button{
+    margin:0;
+    padding:0;
+    margin-left: 10px;
+    font-size: 28px;
+    display: inline;
+    line-height: 220px;
+    outline: 1px solid white;
+}
+/* dit is de border om de image */ 
+.borders{
+	outline: 2px solid white;
+	outline-offset: -2px;
+}
+/* dit zorgt voor de border om de naam */ 
+.bordersName{
+	outline: 2px solid white;
+	outline-offset: -2px;
+}
+
+/* als het antwoord correct is komt er een groene border omheen */ 
+.greenBorder{
+	outline: 2px solid green;
+	outline-offset: -2px;
+    -webkit-transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+/* als het antwoord fout is komt er een rode border omheen*/ 
+.redBorder{
+	outline: 2px solid red;
+	outline-offset: -2px;
+}
+#progressBar {
+  width: 90%;
+  margin: 10px auto;
+  height: 22px;
+  background-color: #0A5F44;
+}
+
+#progressBar div {
+  height: 100%;
+  text-align: right;
+  padding: 0 10px;
+  line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+  width: 0;
+  background-color: #CBEA00;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+

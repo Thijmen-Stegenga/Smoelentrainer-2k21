@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Settings</title>
+	<link rel="stylesheet" type="text/css" href="smoelentrainer.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+	<form id="timers" class="col-2 mx-auto form">
+	  <div class="form-group">
+	    <label for="timer">Choose your time!</label>
+	    <input type="number" class="form-control" name="timer" placeholder="Set your time">
+	  </div>
+	  <label class="mr-sm-2" for="themselect">Select the theme:</label>
+	      		<select name="themeselect" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+	        		<option selected value="standard">Standard</option>
+	        		<option value="horizontal">Horizontal</option>
+	        		<option value="vertical">Vertical</option>
+	      		</select>
+	  <div class="form-group">
+	  	<label for="players">How many players? (choose between 5 - 11)</label>
+	    <input type="number" class="form-control" name="players" placeholder="5 - 11" min="5" max="11">
+	  </div>
+	  <button type="button" id="submit" class="btn btn-primary submit">Submit</button>
+	</form>
+
+<script type="text/javascript" src="settings.js"></script>
+</body>
+</html>
